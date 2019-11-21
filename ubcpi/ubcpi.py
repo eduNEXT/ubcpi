@@ -37,6 +37,7 @@ MAX_RATIONALE_SIZE_IN_EVENT = settings.TRACK_MAX_EVENT // 4
 # afterward, will fallback to only return seeded answers
 MAX_REFRESH_PER_OPTION = 5
 
+
 def truncate_rationale(rationale, max_length=MAX_RATIONALE_SIZE_IN_EVENT):
     """
     Truncates the rationale for analytics event emission if necessary
